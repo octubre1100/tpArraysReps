@@ -15,8 +15,8 @@ for (let n= 0; n<numeros.length; n++) {
 
 }
 let nsumar = [1, 2, 3, 4, 5, 5]
+let resultado = 0
 for (let n= 0; n<nsumar.length; n++) {
-    let resultado = 0
     console.log (resultado += nsumar[n])  
     }      
 let cosas = [prompt("Escriba 1 palabras"), prompt("Escriba otra palabra"), prompt("Escriba otra palabra"), prompt("Escriba otra palabra"), prompt("Escriba la ultima palabra")]
