@@ -1,13 +1,13 @@
 let frutas = ["manzana", "tomate", "durazno"]
-frutas.push = "pera"
-frutas.unshift = "mango"
+frutas.push ("pera")
+frutas.unshift ("mango")
 frutas.pop 
 frutas.shift
 console.log (frutas)
 let nombres = ["Mangel", "Salvador", "Fernando"]
 console.log (nombres.length)
-nombres.push = "Robert"
-nombres.push = "Nick"
+nombres.push ( "Robert")
+nombres.push ("Nick")
 console.log (nombres.length)
 let numeros = [5, 6, 2, 4, 9, 0]
 for (let n= 0; n<numeros.length; n++) {
