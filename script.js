@@ -19,5 +19,6 @@ let resultado = 0
 for (let n= 0; n<nsumar.length; n++) {
     console.log (resultado += nsumar[n])  
     }      
-let cosas = [prompt("Escriba 1 palabras"), prompt("Escriba otra palabra"), prompt("Escriba otra palabra"), prompt("Escriba otra palabra"), prompt("Escriba la ultima palabra")]
+let cosas = []
+cosas.push = [prompt("Escriba 1 palabras"), prompt("Escriba otra palabra"), prompt("Escriba otra palabra"), prompt("Escriba otra palabra"), prompt("Escriba la ultima palabra")]
 console.log(cosas)    
